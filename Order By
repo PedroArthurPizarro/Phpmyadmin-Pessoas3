@@ -1,0 +1,4 @@
+SELECT * FROM `Pessoas` ORDER BY PrimeiroNome; 
+SELECT * FROM `Pessoas` ORDER BY PessoasID; 
+SELECT * FROM `Pessoas` ORDER BY Estado; 
+SELECT * FROM `Pessoas` ORDER BY Idade; 
