@@ -1,0 +1,10 @@
+UPDATE Pessoas
+SET Estado = CASE
+    WHEN Cidade = 'Belo Horizonte' THEN 'MG'
+    WHEN Cidade = 'Santa Maria da Serra' THEN 'SP'
+    WHEN Cidade = 'Florianópolis' THEN 'SC'
+    WHEN Cidade = 'Palmas' THEN 'TO'
+    WHEN Cidade = 'Areal' THEN 'RJ'
+    WHEN Cidade = 'Londrina' THEN 'PR'
+
+END;
